@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Genre Suggestions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<h1 id="title">Would you recommend Anime to watch by the children?</h1>
+<p id="description">Thank you for taking the time to help the Anime industry improve</p>
+<form id="survey-form">
+    <div class="inpute-element">
+
+    <label id="name-label">
+        Name
+    </label>
+    <input placeholder="name" id="name" type="text" required/>
+    </div>
+
+    <div class="inpute-element">
+        <label id="email-label">
+         Email
+        </label>
+        <input placeholder="email" id="email" type="email" required/>
+        </div>
+
+        <div class="inpute-element">
+            <label id="number-label">
+            Age
+            </label>
+            <input placeholder="age" id="number" min="12" max="100" type="number" required/>
+            </div>
+
+        <div class="inpute-element">
+        <label id="select-label">
+        What is your favourite Anime genre?
+         </label>
+        <select id="dropdown">
+         <option>
+            Action
+         </option>
+         <option>
+            Comedy/Slice-of-Life
+        </option>
+        <option>
+            Drama/Tragedy
+        </option>
+        <option>
+            Psychological
+        </option>
+        <option>
+            History
+        </option>
+        <option>
+            Mecha/Military
+        </option>
+        <option>
+            Supernatural/Magic
+        </option>
+        <option>
+            Romance
+        </option>
+        </select>
+          </div>
+        
+         <div>
+        <label>Have you been watch Anime before?</label>
+       
+        <div>
+         <label><input type="radio" name="Anime" value="yes"/>Yes</label>
+         </div>
+         
+         <div>
+        <label><input type="radio" name="Anime" value="no"/>No</label>
+        </div>
+
+        <label>Which suggestions are good ideas for the Anime industry to implement?</label>
+        
+        <div>
+        <label><input type="checkbox" name="ideas" value="bloody"/>Less bloody scenes</label>
+        </div>
+            
+        <div>
+        <label><input type="checkbox" name="ideas" value="foul"/>Foul words</label>
+        </div>
+
+        <div>
+        <label><input type="checkbox" name="ideas" value="sexual"/>Sexual provocative</label>
+        </div>
+        
+        <div>
+        <label><input type="checkbox" name="ideas" value="Violent"/>Violent/Harassment scenes</label>
+        </div>
+
+        <div class="input-element">
+            <label>Additional comments</label>
+            <textarea type="text"></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+        </div>
+</form>
+</body>    
+
+</html>
